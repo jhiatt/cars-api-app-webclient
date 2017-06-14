@@ -1,0 +1,5 @@
+<%= form_tag "/cars/#{@car.id}", method: :patch do %>
+  <div>vin<input type="text" value=<%= @car.vin %> name="vin"></div>  
+  <div>manufacture<input type="text" value="<%= @car.manufacture %>" name="manufacture"></div>
+  <div><input type="submit" value="submit"></div>
+<% end %>

@@ -1,0 +1,6 @@
+<p>Manufacture <%= @car.manufacture %></p>
+<p>Vin <%= @car.vin %></p>
+
+<%= link_to "delete car", "/cars/#{@car.id}", method: :delete %>
+
+<br>
